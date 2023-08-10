@@ -105,6 +105,7 @@
   position: relative;
   cursor: pointer;
   border: none;
+  background-color: transparent;
 }
 
 .btnLoadMore > img {
