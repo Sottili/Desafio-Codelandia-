@@ -1,0 +1,139 @@
+.sectionPosts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Nunito";
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.contentCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.xboxCard {
+  background-image: url("./assets/Xbox.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 320px;
+  height: 500px;
+  max-width: 100%;
+  color: #fff;
+  margin-right: 30px;
+}
+
+.cyberPunkCard {
+  background-image: url("./assets/CyberPunk.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 320px;
+  height: 500px;
+  max-width: 100%;
+  color: #fff;
+  margin-right: 30px;
+}
+
+.multiVersusCard {
+  background-image: url("./assets/Multiversus.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 325px;
+  height: 500px;
+  max-width: 100%;
+  color: #fff;
+}
+
+.nfsCard {
+  background-image: url("./assets/NeedForSpeed.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1028px;
+  height: 400px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.titleCardNfs {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.titleCard {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  max-width: 250px;
+}
+
+.mutedP {
+  color: #e2e2e2;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.xboxCard,
+.cyberPunkCard,
+.multiVersusCard,
+.nfsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 3px;
+}
+
+.contentBtn {
+  width: 100%;
+  text-align: center;
+}
+
+.btnLoadMore {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+}
+
+.btnLoadMore > img {
+  position: absolute;
+  top: -15%;
+}
+
+@media (max-width: 768px) {
+  .xboxCard,
+  .cyberPunkCard,
+  .multiVersusCard {
+    margin: 0 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 290px;
+  }
+}
+
+@media (max-width: 575px) {
+  .xboxCard,
+  .cyberPunkCard,
+  .multiVersusCard {
+    margin: 0;
+    margin-top: 10px;
+    width: 290px !important;
+    height: 280px !important;
+  }
+  .nfsCard {
+    width: 290px;
+    height: 280px;
+  }
+}
